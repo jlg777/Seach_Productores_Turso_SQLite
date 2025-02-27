@@ -35,10 +35,10 @@ app.get('/api/productores', async (req, res) => {
   }
 })
 
-// Esta es la exportación de la función que Vercel necesita
+/*// Esta es la exportación de la función que Vercel necesita
 export default (req, res) => {
   app(req, res) // Pasa las solicitudes y respuestas a la aplicación Express
-}
+}*/
 
 // El servidor escucha en el puerto 3000
 app.listen(3000, () => {
