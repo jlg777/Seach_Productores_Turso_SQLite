@@ -1,7 +1,6 @@
 import express from 'express'
 import path from 'path'
 import { createClient } from '@libsql/client'
-import { json } from 'stream/consumers'
 import morgan from 'morgan'
 import dotenv from 'dotenv'
 import cors from 'cors'
